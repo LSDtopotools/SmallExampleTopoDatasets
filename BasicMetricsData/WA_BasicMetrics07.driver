@@ -1,0 +1,21 @@
+# Parameters for burning data
+# You need to run the Third Example before running this example to get the channel network CSV
+# Comments are preceeded by the hash symbol
+# Documentation can be found at: https://lsdtopotools.github.io/LSDTT_documentation/LSDTT_basic_usage.html 
+
+# These are parameters for the file i/o
+read fname: WA
+write fname: WA_SeventhExample
+channel heads fname: NULL
+
+# Convert to json
+convert_csv_to_geojson: true
+
+# Raster burning
+burn_raster_to_csv: true
+burn_raster_prefix: WA_ThirdExample_d8_area
+burn_data_csv_column_header: d8_area
+csv_to_burn_name: WA_ThirdExample_CN.csv
+
+
+

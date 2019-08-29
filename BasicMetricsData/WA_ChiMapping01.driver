@@ -1,0 +1,21 @@
+# Parameters for extracting simple surface metrics
+# Comments are preceeded by the hash symbol
+# Documentation can be found at: https://lsdtopotools.github.io/LSDTT_documentation/LSDTT_basic_usage.html 
+
+# These are parameters for the file i/o
+read fname: WA
+write fname: WA_ChiFirstExample
+channel heads fname: NULL
+
+# Some basin selection parameters
+only_take_largest_basin: true
+find_complete_basins_in_window: false
+print_basin_raster: true
+
+# We only want the study basin so I have selected the elevation of its outlet
+minimum_elevation: 218
+
+# Now the chi analysis
+print_segmented_M_chi_map_to_csv: true
+print_chi_data_maps: true
+convert_csv_to_geojson: true

@@ -1,0 +1,17 @@
+# Parameters for channel extraction
+# Comments are preceded by the hash symbol
+# Documentation can be found here:
+# https://lsdtopotools.github.io/LSDTT_documentation/LSDTT_channel_extraction.html
+
+# These are parameters for the file i/o
+read fname: indian_creek
+channel heads fname: NULL
+
+# Parameter for filling the DEM
+min_slope_for_fill: 0.0001
+
+# Parameters for selecting channels and basins
+threshold_contributing_pixels: 1000
+print_area_threshold_channels: true
+
+write_hillshade: true

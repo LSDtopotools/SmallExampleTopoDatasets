@@ -1,0 +1,16 @@
+ENVI
+description = {
+WA.bil}
+samples = 486
+lines   = 645
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+byte order = 0
+map info = {Transverse Mercator, 1, 1, 364705, 663485, 5, 5,Ordnance Survey of Great Britain '36}
+projection info = {3, 6377563.396, 6356256.909237285, 49, -2, 400000, -100000, 0.999601272,Ordnance Survey of Great Britain '36, Transverse Mercator}
+band names = {
+Band 1}
+data ignore value = -9999

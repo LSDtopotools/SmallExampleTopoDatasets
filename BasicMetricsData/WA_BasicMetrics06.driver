@@ -1,0 +1,24 @@
+# Parameters for extracting simple surface metrics
+# Comments are preceeded by the hash symbol
+# Documentation can be found at: https://lsdtopotools.github.io/LSDTT_documentation/LSDTT_basic_usage.html 
+
+# These are parameters for the file i/o
+read fname: WA
+write fname: WA_SixthExample
+channel heads fname: NULL
+
+# Basic channel network
+threshold_contributing_pixels: 5000
+
+# Convert to json
+convert_csv_to_geojson: true
+
+# Getting the basins
+find_basins: true
+maximum_basin_size_pixels: 100000000
+only_take_largest_basin: true
+
+# Print the basin raster
+print_chi_data_maps: true
+
+
